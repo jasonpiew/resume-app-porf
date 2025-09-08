@@ -1,6 +1,0 @@
-{
-  "framework": "sveltekit",
-  "buildCommand": "cd resume-app && npm run build",
-  "outputDirectory": "resume-app/.svelte-kit/output",
-  "installCommand": "cd resume-app && npm install"
-}
