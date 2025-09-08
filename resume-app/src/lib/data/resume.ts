@@ -36,7 +36,7 @@ export type ResumeData = {
 export const resumeData: ResumeData = {
 	name: 'Jason Alexander',
 	title: 'Data Enthusiast.',
-	summary: 'with a passion for data. In the pursuit to always be learning and growing.',
+	summary: 'with a passion for data. In the pursuit to always be learning and growing. Beyond work, I have keen interests in watches, books, and cinema.',
 	links: [
 		{ label: 'LinkedIn', href: 'https://www.linkedin.com/in/jason-piew/' },
 		{ label: 'GitHub', href: 'https://github.com/jasonpiew' },
