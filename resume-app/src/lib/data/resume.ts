@@ -1,4 +1,4 @@
-export type Link = { label: string; href: string };
+export type Link = { label: string; href: string; icon?: string };
 export type ExperienceItem = {
 	role: string;
 	company?: string;
@@ -38,12 +38,13 @@ export const resumeData: ResumeData = {
 	title: 'Data Enthusiast.',
 	summary: 'with a passion for data. In the pursuit to always be learning and growing.',
 	links: [
-		{ label: 'LinkedIn', href: 'https://www.linkedin.com/' },
-		{ label: 'GitHub', href: 'https://github.com/' },
-		{ label: 'Watches', href: 'mailto:you@example.com' }
+		{ label: 'LinkedIn', href: 'https://www.linkedin.com/in/jason-piew/' },
+		{ label: 'GitHub', href: 'https://github.com/jasonpiew' },
+		{ label: 'Watches', href: 'https://www.instagram.com/iwantoldwatches/' },
+		{ label: 'Letterboxd', href: 'https://letterboxd.com/jasonpiew/' }
 	],
-	dataSkills: ['SQL','Python','dbt','Airflow','Metabase','Postgres','mage.ai','DuckDB'],
-	devSkills: ['Svelte','TypeScript','Node.js','CSS','Strapi','Docker','Git','Odoo','SAP'],
+	dataSkills: ['SQL','Python','dbt','Airflow','Metabase','Postgres','AirByte','mage.ai','DuckDB','Bigquery','Tableau','PowerBI','Looker'],
+	devSkills: ['Docker','Git','Odoo','SAP','Svelte','TypeScript','Node.js','CSS','Strapi','Supabase','HTML','CSS','REST API'],
 	projects: [
 		{
 			title: 'Mage ai End-to-End ETL Letterboxd Project',
@@ -53,25 +54,25 @@ export const resumeData: ResumeData = {
 			technologies: ['mage ai','Docker','Python','Postgresql','PowerBI']
 		},
 		{
-			title: 'Data Pipeline Automation (masih ongoing ye not ril example)',
-			description: 'Automated ETL pipeline using Python and Airflow to process daily sales data from multiple sources, with automated quality checks and alerting.',
-			url: 'https://github.com/yourusername/data-pipeline',
+			title: 'Mixue Branches Rating in Indonesia ETL Project',
+			description: 'An ETL project that collects and analyzes customer ratings of Mixue branches across Indonesia, providing insights into customer satisfaction and branch performance.',
+			url: 'https://www.linkedin.com/posts/jason-piew_dataanalytics-tableau-data-activity-7013431806418984961-I7O7',
 			image: 'https://images.unsplash.com/photo-1750400519608-d70c17c99b8f?w=400&h=200&fit=crop&crop=faces',
-			technologies: ['Python', 'Airflow', 'PostgreSQL', 'Docker', 'dbt']
+			technologies: ['Python','BigQuery', 'Google Cloud Function', 'Tableau']
 		},
 		{
-			title: 'Customer Segmentation Tool (masih ongoing ye not ril example)',
-			description: 'Machine learning application that segments customers based on purchasing behavior using clustering algorithms and provides actionable insights.',
-			url: 'https://github.com/yourusername/customer-segmentation',
+			title: 'Spotify Wrapped 2022 Analysis',
+			description: 'An analysis of Spotify Wrapped 2022 data using Python, Metabase, and PostgreSQL.',
+			url: 'https://www.linkedin.com/posts/jason-piew_spotifywrapped2022-sql-metabase-activity-7004292140050644992-qhVZ',
 			image: 'https://images.unsplash.com/photo-1749821540948-9ba758eb3c64?w=400&h=200&fit=crop&crop=faces',
-			technologies: ['Python', 'Scikit-learn', 'Pandas', 'Jupyter', 'Flask']
+			technologies: ['Python', 'Metabase', 'PostgreSQL']
 		},
 		{
-			title: 'Real-time Stock Tracker (masih ongoing ye not ril example)',
-			description: 'A responsive web application that tracks stock prices in real-time with interactive charts, portfolio management, and price alerts.',
-			url: 'https://github.com/yourusername/stock-tracker',
+			title: 'SQL Test DataLemur study case',
+			description: 'A study case project focused on SQL data analysis using DataLemur platform.',
+			url: 'https://www.linkedin.com/posts/jason-piew_sql-data-analytics-activity-6998128954935033856-1WCb',
 			image: 'https://images.unsplash.com/photo-1713640774386-86b5f18972f3?w=400&h=200&fit=crop&crop=faces',
-			technologies: ['Svelte', 'TypeScript', 'WebSocket', 'Chart.js', 'Node.js']
+			technologies: ['SQL']
 		}
 	],
 	sections: [
@@ -93,7 +94,7 @@ export const resumeData: ResumeData = {
 		'Ciao', '안녕하세요', 'Merhaba', 'Salam', 'Hej', 'Cześć', 'Γεια σας', 'Ahoj', 'Hei', 'Tere'
 	]
 ,
-	roles: ['Data Enthusiast','Book Lover (sometimes)','Developer','Watch Enthusiast']	
+	roles: ['Data Enthusiast','Book Lover (sometimes)','Developer','Watch Enthusiast','Writer (sometimes)','Cinema Enjoyer']	
 };
 
 

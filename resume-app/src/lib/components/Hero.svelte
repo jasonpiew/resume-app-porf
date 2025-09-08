@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { Linkedin, Github, Instagram, Film } from 'lucide-svelte';
 
 	export let name: string;
 	export let title: string;
@@ -56,7 +57,18 @@
 		{#if links?.length}
 			<nav class="links">
 				{#each links as link}
-					<a rel="me" href={link.href} target="_blank">{link.label}</a>
+					<a rel="me" href={link.href} target="_blank">
+						{#if link.label === 'LinkedIn'}
+							<Linkedin class="icon" size={16} />
+						{:else if link.label === 'GitHub'}
+							<Github class="icon" size={16} />
+						{:else if link.label === 'Watches'}
+							<Instagram class="icon" size={16} />
+						{:else if link.label === 'Letterboxd'}
+							<Film class="icon" size={16} />
+						{/if}
+						<span class="label">{link.label}</span>
+					</a>
 				{/each}
 			</nav>
 		{/if}
@@ -80,8 +92,20 @@
 	.role-highlight { color: #86d19b; text-decoration: underline; }
 
 	.links { margin-top: 20px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
-	.links a { padding: 8px 12px; border: 1px solid #243044; border-radius: 999px; background: #121722; }
-	.links a:hover { background: #1a2233; }
+	.links a { 
+		padding: 8px 12px; 
+		border: 1px solid #243044; 
+		border-radius: 999px; 
+		background: #121722; 
+		display: flex; 
+		align-items: center; 
+		gap: 6px; 
+		text-decoration: none;
+		transition: all 0.3s ease;
+	}
+	.links a:hover { background: #1a2233; border-color: #86d19b; }
+	.links .icon { color: #86d19b; }
+	.links .label { font-size: 14px; color: #d7dbe1; }
 	.about-row { display: flex; gap: 12px; align-items: baseline; flex-wrap: wrap; }
 
 	/* Removed in-hero shapes to avoid edge halo */

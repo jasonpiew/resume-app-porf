@@ -25,6 +25,7 @@
 		"vite": "^7.0.4"
 	},
 	"dependencies": {
-		"@sveltejs/adapter-auto": "^6.1.0"
+		"@sveltejs/adapter-auto": "^6.1.0",
+		"lucide-svelte": "^0.542.0"
 	}
 }
