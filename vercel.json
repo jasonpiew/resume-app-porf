@@ -1,4 +1,0 @@
-{
-  "buildCommand": "cd resume-app && npm install && npm run build",
-  "outputDirectory": "resume-app/.svelte-kit/output"
-}
