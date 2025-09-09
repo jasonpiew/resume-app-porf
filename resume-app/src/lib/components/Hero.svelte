@@ -50,7 +50,7 @@
 				<p class="roles">I'm a <span class="role-highlight">{roles[roleIndex]}</span></p>
 				<p class="summary inline">{summary}</p>
 			</div>
-			<a class="btn" href="https://drive.google.com/file/d/1r32peRY3qDYuWsS2F0onCOY557yuOtDa" download>Download resume</a>
+			<a class="btn" href="https://drive.google.com/file/d/1-E9QGUQ8_oeiJRSZu67QlmdWilK5JFYp" download>Download resume</a>
 		{:else}
 			<p class="summary">{summary}</p>
 		{/if}
