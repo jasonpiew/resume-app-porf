@@ -50,13 +50,13 @@
 				<p class="roles">I'm a <span class="role-highlight">{roles[roleIndex]}</span></p>
 				<p class="summary inline">{summary}</p>
 			</div>
-			<a class="btn" href="https://drive.google.com/file/d/13gNsRUX7eW5NpBY5Sbj9TY-pIgg2AZxZ/view?usp=drive_link" download>Download resume</a>
+			<a class="btn" href="https://drive.google.com/file/d/1r32peRY3qDYuWsS2F0onCOY557yuOtDa" download>Download resume</a>
 		{:else}
 			<p class="summary">{summary}</p>
 		{/if}
 		{#if links?.length}
 			<nav class="links">
-				{#each links as link}
+				{#each links as link} 
 					<a rel="me" href={link.href} target="_blank">
 						{#if link.label === 'LinkedIn'}
 							<Linkedin class="icon" size={16} />

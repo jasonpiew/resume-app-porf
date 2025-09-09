@@ -36,7 +36,7 @@ export type ResumeData = {
 export const resumeData: ResumeData = {
 	name: 'Jason Alexander',
 	title: 'Data Enthusiast.',
-	summary: 'with a passion for data. In the pursuit to always be learning and growing. Beyond work, I have keen interests in watches, books, and cinema.',
+	summary: 'Passionate about data, with a focus on ensuring quality, reliability, and meaningful insights. Always eager to keep learning and growing, both professionally and personally. Outside of work, I enjoy cinema, books, and watches.',
 	links: [
 		{ label: 'LinkedIn', href: 'https://www.linkedin.com/in/jason-piew/' },
 		{ label: 'GitHub', href: 'https://github.com/jasonpiew' },
@@ -44,8 +44,8 @@ export const resumeData: ResumeData = {
 		{ label: 'Letterboxd', href: 'https://letterboxd.com/jasonpiew/' }
 	],
 	dataSkills: ['SQL','Python','dbt','Airflow','Metabase','Postgres','AirByte','mage.ai','DuckDB','Bigquery','Tableau','PowerBI','Looker'],
-	devSkills: ['Docker','Git','Odoo','SAP','Svelte','TypeScript','Node.js','CSS','Strapi','Supabase','HTML','CSS','REST API'],
-	projects: [
+	devSkills: ['Docker','Git','Odoo','SAP','Svelte','TypeScript','Node.js','Strapi','Supabase','HTML','CSS','REST API'],
+	projects: [	
 		{
 			title: 'Mage ai End-to-End ETL Letterboxd Project',
 			description: 'A comprehensive ETL project using Mage ai to extract, transform, and load data from Letterboxd, showcasing the ease of using Mage ai for data workflows. and visualized using PowerBI.	',
@@ -57,12 +57,12 @@ export const resumeData: ResumeData = {
 			title: 'Mixue Branches Rating in Indonesia ETL Project',
 			description: 'An ETL project that collects and analyzes customer ratings of Mixue branches across Indonesia, providing insights into customer satisfaction and branch performance.',
 			url: 'https://www.linkedin.com/posts/jason-piew_dataanalytics-tableau-data-activity-7013431806418984961-I7O7',
-			image: 'https://images.unsplash.com/photo-1750400519608-d70c17c99b8f?w=400&h=200&fit=crop&crop=faces',
+			image: 'https://images.unsplash.com/photo-1554755229-ca4470e07232?w=400&h=200&fit=crop&crop=faces',
 			technologies: ['Python','BigQuery', 'Google Cloud Function', 'Tableau']
 		},
 		{
-			title: 'Spotify Wrapped 2022 Analysis',
-			description: 'An analysis of Spotify Wrapped 2022 data using Python, Metabase, and PostgreSQL.',
+			title: 'Spotify Wrapped Analysis',
+			description: 'An analysis of Spotify Wrapped data using Python, Metabase, and PostgreSQL.',
 			url: 'https://www.linkedin.com/posts/jason-piew_spotifywrapped2022-sql-metabase-activity-7004292140050644992-qhVZ',
 			image: 'https://images.unsplash.com/photo-1749821540948-9ba758eb3c64?w=400&h=200&fit=crop&crop=faces',
 			technologies: ['Python', 'Metabase', 'PostgreSQL']
