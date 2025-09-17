@@ -46,6 +46,15 @@ export const resumeData: ResumeData = {
 	dataSkills: ['SQL','Python','dbt','Airflow','Metabase','Postgres','AirByte','mage.ai','DuckDB','Bigquery','Tableau','PowerBI','Looker'],
 	devSkills: ['Docker','Git','Odoo','SAP','Svelte','TypeScript','Node.js','Strapi','Supabase','HTML','CSS','REST API'],
 	projects: [	
+
+		{
+			title: 'AWS MyAnimeList ETL Data Project',
+			description: 'A cloud-based ETL pipeline that extracts anime data from MyAnimeList API, transforms it using AWS Glue, and loads it into a s3 bucket, and query using AWS Athena.',
+			url: 'https://www.linkedin.com/posts/jason-piew_aws-etl-data-activity-7373924877457805313-Pdrp',
+			image: 'https://images.unsplash.com/photo-1757005550121-2da021b075f2?w=400&h=200&fit=crop&crop=faces',
+			technologies: ['AWS','Lambda','Glue','S3','Athena','CloudFormation','API','Python']
+		},
+
 		{
 			title: 'Mage ai End-to-End ETL Letterboxd Project',
 			description: 'A comprehensive ETL project using Mage ai to extract, transform, and load data from Letterboxd, showcasing the ease of using Mage ai for data workflows. and visualized using PowerBI.	',
