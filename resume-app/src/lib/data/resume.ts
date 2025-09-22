@@ -34,7 +34,7 @@ export type ResumeData = {
 };
 
 export const resumeData: ResumeData = {
-	name: 'Jason Alexander',
+	name: 'Jason Alexander 🍜',
 	title: 'Data Enthusiast.',
 	summary: 'Passionate about data, with a focus on ensuring quality, reliability, and meaningful insights. Always eager to keep learning and growing, both professionally and personally. Outside of work, I enjoy cinema, books, and watches.',
 	links: [
@@ -46,6 +46,14 @@ export const resumeData: ResumeData = {
 	dataSkills: ['SQL','Python','dbt','Airflow','Metabase','Postgres','AirByte','mage.ai','DuckDB','Bigquery','Tableau','PowerBI','Looker'],
 	devSkills: ['Docker','Git','Odoo','SAP','Svelte','TypeScript','Node.js','Strapi','Supabase','HTML','CSS','REST API'],
 	projects: [	
+
+		{
+			title: 'SQL to NoSQL Query Converter',
+			description: 'A online converter that converts SQL queries to NoSQL queries. Alongside tutorial and reference to both SQL and NoSQL query syntax.',
+			url: 'https://www.linkedin.com/posts/jason-piew_aws-etl-data-activity-7373924877457805313-Pdrp',
+			image: 'https://images.unsplash.com/photo-1757583013110-f1f821d9b398?w=400&h=200&fit=crop&crop=faces',
+			technologies: ['SQL','MongoDB','Svelte','JavaScript']
+		},
 
 		{
 			title: 'AWS MyAnimeList ETL Data Project',
@@ -103,7 +111,7 @@ export const resumeData: ResumeData = {
 		'Ciao', '안녕하세요', 'Merhaba', 'Salam', 'Hej', 'Cześć', 'Γεια σας', 'Ahoj', 'Hei', 'Tere'
 	]
 ,
-	roles: ['Data Enthusiast','Book Lover (sometimes)','Developer','Watch Enthusiast','Writer (sometimes)','Cinema Enjoyer']	
+	roles: ['Data Enthusiast','Die Hard Ramen Lover','Book Lover (sometimes)','Developer','Watch Enthusiast','Writer (sometimes)','Cinema Enjoyer']	
 };
 
 
