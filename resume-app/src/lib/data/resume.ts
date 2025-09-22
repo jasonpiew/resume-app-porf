@@ -50,10 +50,11 @@ export const resumeData: ResumeData = {
 		{
 			title: 'SQL to NoSQL Query Converter',
 			description: 'A online converter that converts SQL queries to NoSQL queries. Alongside tutorial and reference to both SQL and NoSQL query syntax.',
-			url: 'https://www.linkedin.com/posts/jason-piew_aws-etl-data-activity-7373924877457805313-Pdrp',
+			url: 'https://lnkd.in/p/g7VB-ND3',
 			image: 'https://images.unsplash.com/photo-1757583013110-f1f821d9b398?w=400&h=200&fit=crop&crop=faces',
 			technologies: ['SQL','MongoDB','Svelte','JavaScript']
 		},
+		
 
 		{
 			title: 'AWS MyAnimeList ETL Data Project',
